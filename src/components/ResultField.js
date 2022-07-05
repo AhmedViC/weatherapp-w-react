@@ -22,7 +22,7 @@ const ResultField = (props) => {
     {
         return(
             <div>
-                Please be more specified 
+                Please be more specific
             </div>
         )
     }
