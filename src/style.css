@@ -1,4 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Lato:wght@700&family=Open+Sans&family=Roboto+Mono:wght@300;500&family=Roboto:wght@300&family=Source+Code+Pro&display=swap');
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .container{
+
+
+        padding: 1rem;
+       text-align: center;
+       background-color: #B780FF;
+       width: 15rem;
+       margin-top: 50px;
+       margin-right: auto;
+       border-radius: 25px;
+       margin-left: auto;
+       box-shadow: 2px 2px;
+       padding-bottom: 4rem;
+    }
+    input{
+        font-size: 13px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    
+
+  }
+  @media (min-width: 601px) {
+    body {
+      background-color: lightblue;
+    }
+    .container{
+
+
+        padding: 5rem;
+       text-align: center;
+       background-color: #B780FF;
+       width: 20rem;
+       margin-top: 50px;
+       margin-right: auto;
+       border-radius: 25px;
+       margin-left: auto;
+       box-shadow: 2px 2px;
+     
+    }
+    input{
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
+    
+
+  }
 body{
     margin: 0;
     padding: 0;
@@ -13,19 +67,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 
 }
-.container{
 
-
-    padding: 5rem;
-   text-align: center;
-   background-color: #B780FF;
-   width: 20rem;
-   margin-top: 50px;
-   margin-right: auto;
-   border-radius: 25px;
-   margin-left: auto;
-   box-shadow: 2px 2px;
-}
 
 .input{
    
@@ -34,11 +76,7 @@ body{
     margin-left: auto;
 
 }
- input{
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-}
+
 
 .output h1{
     font-family: 'Open Sans', sans-serif;
