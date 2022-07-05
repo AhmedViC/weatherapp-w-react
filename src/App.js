@@ -108,7 +108,7 @@ const queryFieldhandler = (event) =>{
 }
 
   return (
-    <div>
+    <div className='main'>
       <div className='header'>Countries Data app</div>
       <div className='container'>
       <div className='input'>
@@ -118,6 +118,7 @@ const queryFieldhandler = (event) =>{
       <ResultField data={currentList} handler={showData} currentQuery={countryQuery} weather={weather}/>
       </div>
       </div>
+      <footer className='footer'><a href="https://github.com/AhmedViC/weatherapp-w-react"><i class="fa-brands fa-github"></i></a></footer>
      
 
      

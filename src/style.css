@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Lato:wght@700&family=Open+Sans&family=Roboto+Mono:wght@300;500&family=Roboto:wght@300&family=Source+Code+Pro&display=swap');
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+  
     .container{
 
 
@@ -17,20 +15,20 @@
        margin-left: auto;
        box-shadow: 2px 2px;
        padding-bottom: 4rem;
+       flex: 1;
     }
     input{
         font-size: 13px;
         font-family: 'Lato', sans-serif;
         text-align: center;
         margin-bottom: 4rem;
+        margin-bottom: 7rem;
     }
     
 
   }
   @media (min-width: 601px) {
-    body {
-      background-color: lightblue;
-    }
+  
     .container{
 
 
@@ -43,6 +41,8 @@
        border-radius: 25px;
        margin-left: auto;
        box-shadow: 2px 2px;
+       margin-bottom: 7rem;
+       flex: 1;
      
     }
     input{
@@ -57,17 +57,50 @@ body{
     margin: 0;
     padding: 0;
     background-color: #975CE6;
+    
 }
 
-.header{
-    text-align: center;
+
+
+.main{
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,.footer {
+   
     padding: 2rem;
+    text-align: center;
     background-color: #5C2E99;
     font-size: 2rem;
+    
     font-family: 'Open Sans', sans-serif;
 
 }
+a{
+   
+    text-decoration: none;}
 
+a:hover{
+   
+    text-decoration: none;
+}
+
+.footer{
+   
+  
+   bottom:0;
+
+  
+   height:60px; 
+   background:#6cf;
+   font-size: 3rem;
+  
+}
+.allButFooter {
+    min-height: calc(100vh - 40px);
+}
 
 .input{
    
